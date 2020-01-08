@@ -9,16 +9,16 @@
 // site configuration options.
 
 // List of projects/orgs using your project for the users page.
-const users = [
-  {
-    caption: 'User1',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
-];
+// const users = [
+//   {
+//     caption: 'User1',
+//     // You will need to prepend the image path with your baseUrl
+//     // if it is not '/', like: '/test-site/img/image.jpg'.
+//     image: '/img/undraw_open_source.svg',
+//     infoLink: 'https://www.facebook.com',
+//     pinned: true,
+//   },
+// ];
 
 const siteConfig = {
   title: 'Open Payments', 
@@ -29,12 +29,12 @@ const siteConfig = {
   organizationName: 'adrianhopebailie',
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'overview', label: 'Docs'},
-    {page: 'help', label: 'Help'}
+    {doc: 'overview', label: 'Specification'},
+    // {page: 'help', label: 'Help'}
   ],
 
   // If you have users set above, you add it here:
-  users,
+  // users,
 
   /* path to images for header/footer */
   headerIcon: 'img/favicon.ico',
